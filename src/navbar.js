@@ -18,11 +18,15 @@ function Navbar() {
     const displaynav=(e)=>{
         let nav = document.querySelector(".navdiv_sm")
         if(nav.style.height === "60vh"){
+          setTimeout(()=>{
             e.target.classList.add("fa-bars")
             e.target.classList.remove("fa-times")
+          },1000)
         }else{
+           setTimeout(()=>{
             e.target.classList.add("fa-times")
             e.target.classList.remove("fa-bars")
+           },1000)
         }
         nav.style.height = nav.style.height === "60vh" ? "0%" : "60vh"
         nav.style.width = nav.style.height === "100%" ? "0%" : "100%"
