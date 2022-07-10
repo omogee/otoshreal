@@ -100,7 +100,7 @@
 
 @media all and (max-width:600px) {
     .navbrand{width:20%}
-   
+   .navbrand_sm{width:30%;float:left}
   .logindiv{left:0;width:100%;border-radius: 0px;top:10%}
   .registerdiv{left:0;width:100%;border-radius: 0px;top:10%}
   .carodiv{width:100%;height:100vh}
@@ -110,7 +110,7 @@
   .section_3_img{height:300px;padding:20px}
   }
 @media all and (max-width:520px) {
- 
+    .navbrand_sm{width:27%;float:left}
      a{color:red}
     .bardiv{display:block}
     .navdivlist{display: none; }

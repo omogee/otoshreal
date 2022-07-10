@@ -123,7 +123,7 @@ if(e.target.className !== "off" || e.target.className !== "buy" || e.target.oute
            <h1>{width}</h1>
             <div className='row' style={{padding:"15px"}}>
             {data.map(dataimages =>
-                <div key={dataimages.id} className="col-6 col-sm-6 col-md-4 col-lg-3  datapagediv"   style={{padding:"5px"}}>
+                <div key={dataimages.id} className="col-xs-12 col-sm-6 col-md-4 col-lg-3  datapagediv"   style={{padding:"5px"}}>
                     <div style={{border:"1px solid lightgrey",padding:"10px"}}>
                     <div onMouseLeave={(e)=>unscale(e)} style={{height:"200px",borderRadius:"5px",position:"relative"}}>
                     <div className='off' style={{position:"absolute",right:"0px",top:"0px",zIndex:"10",backgroundColor:"green",fontWeight:"bold",padding:"1px 5px",borderBottomLeftRadius:"10px",borderTopLeftRadius:"5px",color:"white"}}>

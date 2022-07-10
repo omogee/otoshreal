@@ -279,8 +279,8 @@ function Landing() {
            <br/>
            <div style={{backgroundColor:"white",width:"100%",backgroundSize:"cover",backgroundRepeat:"repeat-y"}}>
             
-           <div style={{display:"flex",flexWrap:"wrap",height:"100%"}}>
-                       <div style={{width:"50%",padding:"20px"}}>
+           <div className='row'>
+                       <div className="col-12 col-sm-6" style={{padding:"20px"}}>
                        <div  style={{width:"100%",borderRadius:"10px",border:"2px solid indianred",padding:"30px",backgroundColor:"white",cursor:"pointer"}}>
                            <center>
                            <h4>Check Connections <span className='fa fa-link'></span></h4>
@@ -289,7 +289,7 @@ function Landing() {
                            </center>
                        </div>
                        </div>
-                       <div style={{width:"50%",padding:"20px"}}>
+                       <div className="col-12 col-sm-6" style={{padding:"20px"}}>
                        <div  style={{color:"white",width:"100%",borderRadius:"10px",padding:"30px",backgroundColor:"#FF6347",cursor:"pointer"}}>
                        <center>
                            <h4>Update Profile <span className='fa fa-edit'></span> </h4>
@@ -298,8 +298,8 @@ function Landing() {
                            </center>
                        </div>
                        </div>
-                       <div style={{width:"50%",padding:"20px"}}>
-                       <div  style={{color:"white",margin:"10px",height:"100%",width:"100%",borderRadius:"10px",padding:"30px",backgroundColor:"#FF6347",cursor:"pointer"}}>
+                       <div className="col-12 col-sm-6" style={{padding:"20px"}}>
+                       <div  style={{color:"white",height:"100%",width:"100%",borderRadius:"10px",padding:"30px",backgroundColor:"#FF6347",cursor:"pointer"}}>
                        <center>
                            <h4>Join Room <span className='fa fa-home'></span> + </h4>
                            <small tyle={{fotWeight:"bold"}}>  Select a room from the list of created rooms that fits your interest .</small><br/>
@@ -308,7 +308,7 @@ function Landing() {
                            </center>
                        </div>
                        </div>
-              <div style={{width:"50%",padding:"20px"}}>
+              <div className="col-12 col-sm-6" style={{padding:"20px"}}>
                 <div style={{justifyContent:"center",border:"2px solid indianred",borderRadius:"10px",padding:"10px"}}>
                  <div >
                    <center >
@@ -361,9 +361,9 @@ There are many variations of passages of Lorem Ipsum available, but the majority
                 <p style={{fontSize:"20px"}}>08169319476</p>
                 </center>
                 </div>
-            <div style={{display:"flex",height:"150px"}}>
-              <div style={{width:"50%"}}></div>
-              <div style={{width:"40%",color:"white"}}>
+            <div style={{display:"flex",height:"150px",marginTop:"200px"}}>
+              <div style={{width:"30%"}}></div>
+              <div style={{width:"70%",color:"white"}}>
               <p>Sign up to Newsletter to get special offers <span className='fa fa-book'></span></p>
               <input type="text" className='form-control' placeholder='&#xf0e0; Please Enter Your Email Address' style={{fontFamily:"FontAwesome"}}/>
               <button className='btn' style={{backgroundColor:"indianred",opacity:"0.9",color:"white",marginTop:"5px"}}>SIGN UP!</button>

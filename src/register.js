@@ -58,9 +58,11 @@ const change=(e)=>{
                      <br/> <input type="text" onChange={change} name="gender" placeholder='Gender' style={{fontFamily: "FontAwesome"}} className='form-control'></input>
                      <br/> <input type="password" onChange={change} name="password" placeholder='&#xf023; Password' style={{fontFamily: "FontAwesome"}} className='form-control'></input>
                      <br/>
-                     <button className='btn btn-sm'  style={{backgroundColor:"#FF6347",color:"white",fontWeight:"bold",width:"100%"}}>
+                    <center>
+                    <button className='btn btn-md'  style={{backgroundColor:"#FF6347",color:"white",fontWeight:"bold",width:"80%"}}>
                            REGISTER
                        </button>
+                    </center>
 
                        <div style={{marginTop:"30px",fontSize:"18px"}}>
                            <center>
