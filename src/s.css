@@ -85,7 +85,7 @@
 .carodiv{width:100%;height:80vh}
 .discountdiv{position:absolute; top:40%;right:10%;padding:20px;width:20%;background-color:rgba(0,0,0,0.6)}
 .section_Two{width:100%;padding: 100px;}
-.footercontactdiv{position:absolute;background-color:indianred;border:1px solid grey;top:-70px;width:20%;border-radius:50%;height:250px}
+.footercontactdiv{position:absolute;background-color:indianred;border:1px solid grey;top:-70px;width:25%;border-radius:50%;height:250px}
 .section_3_img{height:700px;padding:20px}
 
 @media all and (max-width:900px) {
@@ -110,7 +110,7 @@
   .section_3_img{height:300px;padding:20px}
   }
 @media all and (max-width:520px) {
-    .navbrand_sm{width:27%;float:left}
+    .navbrand_sm{width:30%;float:left}
      a{color:red}
     .bardiv{display:block}
     .navdivlist{display: none; }
@@ -120,6 +120,6 @@
   .carodiv{width:100%;height:100vh}
   .discountdiv{position:absolute; top:15%;right:0%;padding:10px;width:40%;background-color:rgba(0,0,0,0.5)}
   .section_Two{width:100%;padding:50px 20px;}  
-.footercontactdiv{position:absolute;background-color:indianred;border:1px solid grey;top:-50px;width:40%;border-radius:50%;height:250px}
+.footercontactdiv{position:absolute;background-color:indianred;border:1px solid grey;top:-50px;width:55%;border-radius:50%;height:250px}
 .section_3_img{height:300px;padding:20px}
 }

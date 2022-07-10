@@ -5,7 +5,7 @@ import "./s.css"
 
 function Navbar() {
     const [display, changedisplay] = useState("none")
-    const [navlinks, setnavlinks] = useState([{url:"",name:"home"},{url:"services",name: "services"},{url:"contacts",name:"contact"},
+    const [navlinks, setnavlinks] = useState([{url:"",name:"home"},{url:"purchase",name:"Our Properties"},{url:"services",name: "services"},{url:"contacts",name:"contact"},
     {url:"login",name:"login/register"}])
     const [subnavlinks, setsubnavlinks] = useState([{url:"/products",name:"Our Products"},{url:"blog",name: "blog"},{url:"Complaint",name:"Complaint"},
     {url:"policies",name:"Our policies"}])
@@ -51,10 +51,11 @@ function Navbar() {
                 </div>
             </nav>
           
-            <div className='bardiv' style={{display:"absolute",top:"5px",width:"100%",height:"10vh",backgroundColor:"white",opacity:"0.9", right:"0px",padding:"10px"}}>
+            <div className='bardiv' style={{display:"absolute",top:"5px",width:"100%",height:"12vh",backgroundColor:"white",opacity:"0.9", right:"0px",padding:"10px"}}>
             <div className='navbrand_sm'>
                       <img style={{width:"100%"}} src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF514mmQNz2OYCDUq8pIA2tRxg4lOzrn-yXA&usqp=CAU`} />
                   </div>
+
                 <span onClick={displaynav} className='fa fa-bars' style={{float:"right",color:"grey",border:"2px solid grey",fontSize:"20px",padding:"5px",color:"grey",cursor:"pointer",transition:"opacity 2s"}}></span>
             </div>
             <div className='navdiv_sm' ref={navref}>

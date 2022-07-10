@@ -114,13 +114,9 @@ if(e.target.className !== "off" || e.target.className !== "buy" || e.target.oute
            <input onChange={change} className="form-control"  placeholder='Search Vendor' style={{width:"60%",border:"1px solid lightgrey",borderRadius:"5px"}} />
            </div>
            <br/>
-           <br/>
            <button className='btn btn-primary' type='submit' onSubmit={submit}>Submit</button>
            </form>
             </div>
-            <br/>
-           <br/>
-           <h1>{width}</h1>
             <div className='row' style={{padding:"15px"}}>
             {data.map(dataimages =>
                 <div key={dataimages.id} className="col-xs-12 col-sm-6 col-md-4 col-lg-3  datapagediv"   style={{padding:"5px"}}>
